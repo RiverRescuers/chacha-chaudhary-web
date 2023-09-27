@@ -1,9 +1,5 @@
 import React from "react";
-// import NavLogo from "../assets/images/navlogo.png";
-// import Name from "../assets/images/NMCG name.png";
 import FLogo from "../assets/images/Full Logo.png";
-// import CCHead from "../assets/images/cc head.png";
-// import Formula from "../assets/images/formula.gif";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -13,11 +9,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            {/* <img src={NavLogo} alt="" /> */}
-            {/* <img src={Name} alt="" /> */}
             <img src={FLogo} alt="NMCG" />
-            {/* <img src={CCHead} alt="NMCG" /> */}
-            {/* <img src={Formula} alt="NMCG" /> */}
           </Link>
           <button
             className="navbar-toggler"
@@ -39,7 +31,7 @@ export default function Navbar() {
                 <Link
                   to="/chatbot"
                   className="nav-link active with-border"
-                  style={{ color: "crimson" }}
+                  style={{ color: "indianred" }}
                   aria-current="page"
                   href="#"
                 >
@@ -50,7 +42,7 @@ export default function Navbar() {
                 <Link
                   to="/api"
                   className="nav-link with-border"
-                  style={{ color: "crimson" }}
+                  style={{ color: "indianred" }}
                   href="#"
                 >
                   Programs & Initiatives
@@ -60,7 +52,7 @@ export default function Navbar() {
                 <Link
                   to="/"
                   className="nav-link with-border"
-                  style={{ color: "crimson" }}
+                  style={{ color: "indianred" }}
                   href="#"
                 >
                   River Ecology
@@ -70,7 +62,7 @@ export default function Navbar() {
                 <Link
                   to="/gallery"
                   className="nav-link with-border"
-                  style={{ color: "crimson" }}
+                  style={{ color: "indianred" }}
                   href="#"
                 >
                   Gallery
@@ -80,7 +72,7 @@ export default function Navbar() {
                 <Link
                   to="/"
                   className="nav-link with-border"
-                  style={{ color: "crimson" }}
+                  style={{ color: "indianred" }}
                   href="#"
                 >
                   About Us
