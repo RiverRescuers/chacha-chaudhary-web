@@ -1,10 +1,15 @@
 import React from "react";
-import NavLogo from "../assets/images/navlogo.png";
-import Name from "../assets/images/NMCG name.png";
+// import NavLogo from "../assets/images/navlogo.png";
+// import Name from "../assets/images/NMCG name.png";
 import FLogo from "../assets/images/Full Logo.png";
+<<<<<<< HEAD
 import CCHead from "../assets/images/cc head.png";
 import Formula from "../assets/images/formula.gif";
 import { Link } from "react-router-dom";
+=======
+// import CCHead from "../assets/images/cc head.png";
+// import Formula from "../assets/images/formula.gif";
+>>>>>>> 63f3dc12319387e686fb4e57794f5944edb6ee1b
 import "./Navbar.css";
 
 export default function Navbar() {

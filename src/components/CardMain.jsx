@@ -16,7 +16,6 @@ export default function CardMain(props) {
             {props.btnText}
           </a>
         </div>
-        <div className="card-footer text-body-secondary">{props.footText}</div>
       </div>
     </div>
   );
