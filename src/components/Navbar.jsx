@@ -35,7 +35,7 @@ export default function Navbar() {
                   aria-current="page"
                   href="#"
                 >
-                  Chacha Chaudary
+                  Chacha Chaudhary
                 </Link>
               </li>
               <li className="nav-item">
