@@ -2,8 +2,10 @@ import React from "react";
 // import NavLogo from "../assets/images/navlogo.png";
 // import Name from "../assets/images/NMCG name.png";
 import FLogo from "../assets/images/Full Logo.png";
+import { Link } from "react-router-dom";
 // import CCHead from "../assets/images/cc head.png";
 // import Formula from "../assets/images/formula.gif";
+
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -11,13 +13,13 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             {/* <img src={NavLogo} alt="" /> */}
             {/* <img src={Name} alt="" /> */}
             <img src={FLogo} alt="NMCG" />
             {/* <img src={CCHead} alt="NMCG" /> */}
             {/* <img src={Formula} alt="NMCG" /> */}
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -35,50 +37,55 @@ export default function Navbar() {
               style={{ marginLeft: "60px" }}
             >
               <li className="nav-item">
-                <a
+                <Link
+                  to="/chatbot"
                   className="nav-link active with-border"
-                  style={{ color: "skyblue" }}
+                  style={{ color: "crimson" }}
                   aria-current="page"
                   href="#"
                 >
                   Chacha Chaudary
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
+                  to="/api"
                   className="nav-link with-border"
-                  style={{ color: "skyblue" }}
+                  style={{ color: "crimson" }}
                   href="#"
                 >
                   Programs & Initiatives
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
+                  to="/"
                   className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
                   River Ecology
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
+                  to="/gallery"
                   className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
                   Gallery
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
+                  to="/"
                   className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
